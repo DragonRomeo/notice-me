@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../travel/assets/icons/favicon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-hero">
+      <header>
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="../travel/assets/icons/logo.svg"
+            alt="logo"
+          />
+          <p class="logo-text">Travel Portal</p>
+        </div>
+        <nav>
+          <ul class="ul-nav">
+            <li><a class="nav-link" href="#work">How It Works</a></li>
+            <li><a class="nav-link" href="#plan">Plan Your Trip</a></li>
+            <li><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li><a class="nav-link" href="#stories">Travel Stories</a></li>
+          </ul>
+        </nav>
+        <button class="header-btn">Login</button>
+        <div class="hamburger-btn">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+        <div class="nav-mobile-wrapper">
+          <ul class="nav-mobile">
+            <li><a class="nav-link" href="#work">How It Works</a></li>
+            <li><a class="nav-link" href="#plan">Plan Your Trip</a></li>
+            <li><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li><a class="nav-link" href="#stories">Travel Stories</a></li>
+            <li><a class="nav-link" id="account-mobile" href="#account">Account</a></li>
+            <li><a class="nav-link" href="#social">Social Media</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="pop-up">
+          <h4>Log in to your account</h4>
+          <div class="pop-up-item facebook">
+            <img
+              src="../travel/assets/icons/Facebook Logo.svg"
+              alt="Facebook logo"
+            />
+            Sign In with Facebook
+          </div>
+          <div class="pop-up-item">
+            <img
+              src="../travel/assets/icons/Google Logo.svg"
+              alt="Google logo"
+            />
+            Sign In with Google
+          </div>
+          <div class="popUp-line">
+            <p class="p-popUp">or</p>
+          </div>
+          <div class="email-pass-wrapper">
+            <p class="p-popUp email-pass">E-mail</p>
+            <div class="pop-up-item email"><input id="email" type="email" /></div>
+            <p class="p-popUp email-pass">Password</p>
+            <div class="pop-up-item"><input id="password" type="password" /></div>
+          </div>
+          <div class="pop-up-item signIn"> <button id="Sign-in" class="popUp-btn">Sign in</button> </div>
+          <p class="p-popUp">  <a href="">Forgot Your Password?</a> </p>
+          <div class="popUp-line-2"></div>
+          <p class="p-popUp">
+            Don't have an account? <a href="">Register</a>  
+          </p>
+        </div>
+        <section class="hero" id="work">
+          <div class="explore">
+            <h1>Explore the beauty of the World</h1>
+            <p class="p-hero">
+              Receive personalized recommendations for countries, hotels,
+              activities and more
+            </p>
+            <div class="search">
+              <p class="p-search">What would you like to do?</p>
+              <button class="search-btn">Start Planning</button>
+            </div>
+          </div>
+        </section>
+        <section class="steps" id="plan">
+          <h2>3 STEPS TO THE PERFECT TRIP</h2>
+          <div class="steps-container">
+            <div class="steps-item">
+              <img
+                class="img-steps"
+                src="../travel/assets/icons/icon_1.svg"
+                alt="bicycle"
+              />
+              <p class="p-step p-step-left">Tell us what you want to do</p>
+            </div>
+            <div class="steps-item s-i-middle">
+              <img
+                class="img-steps"
+                src="../travel/assets/icons/icon_2.svg"
+                alt="calendar"
+              />
+              <p class="p-step">Share us preferable dates</p>
+            </div>
+            <div class="steps-item">
+              <img
+                class="img-steps"
+                src="../travel/assets/icons/icon_3.svg"
+                alt="plane"
+              />
+              <p class="p-step">We will give you recommendations</p>
+            </div>
+          </div>
+        </section>
+        <section class="destinations" id="destinations">
+          <h2 class="h2-desti">POPULAR DESTINATIONS</h2>
+          <div class="slider">
+            <div class="slider-item" id="slider-item-left">
+              <div class="slider-text">SPAIN</div>
+            </div>
+
+            <div class="slider-item SI-child-hide" id="slider-item-middle">
+              <div class="slider-text">JAPAN</div>
+            </div>
+            <div class="slider-item SI-child-hide" id="slider-item-right">
+              <div class="slider-text">USA</div>
+            </div>
+          </div>
+          <div class="slider-arrow-wrap">
+            <button class="slider-left-arrow disable"></button>
+            <button class="slider-right-arrow"></button>
+          </div>
+          <div class="circles">
+            <div class="circle-item active-mobile" id="circle-item-left"></div>
+            <div class="circle-item active" id="circle-item-middle"></div>
+            <div class="circle-item" id="circle-item-right"></div>
+          </div>
+          <button class="destinations-btn">
+            <img
+              class="arrow_right"
+              src="../travel/assets/icons/arrow_right.svg"
+              alt="arrow_right"
+            />
+            Find More
+          </button>
+        </section>
+
+        <section class="stories" id="stories">
+          <h2>TRAVEL STORIES</h2>
+          <div class="background-stories-footer">
+            <div class="stories-container">
+              <div class="story-item">
+                <img
+                  class="story-img"
+                  src="../travel/assets/images_stories/photo_1.jpg"
+                  alt="thailand"
+                />
+                <div class="story-item-inner">
+                  <h3>10 Photos of Attractive Thailand</h3>
+                  <p class="p-mobile" lang="zxx">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit... <br />
+                    <a class="story-link" href="">Read More</a>
+                  </p>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="story-img"
+                  src="../travel/assets/images_stories/photo_2.jpg"
+                  alt="canyonlands"
+                />
+                <div class="story-item-inner">
+                  <h3>Canyonlands National Park, Utah</h3>
+                  <p class="p-mobile" lang="zxx">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit... <br />
+                    <a class="story-link" href="">Read More</a>
+                  </p>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="story-img"
+                  src="../travel/assets/images_stories/photo_3.jpg"
+                  alt="mountains"
+                />
+                <div class="story-item-inner">
+                  <h3>I left my heart in the Mountains!</h3>
+                  <p class="p-mobile" lang="zxx">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit... <br />
+                    <a class="story-link" href="">Read More</a>
+                  </p>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="story-img"
+                  src="../travel/assets/images_stories/photo_4.jpg"
+                  alt="thailand"
+                />
+                <div class="story-item-inner">
+                  <h3>The Longest journey in my life!</h3>
+                  <p class="p-mobile" lang="zxx">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit... <br />
+                    <a class="story-link" href="">Read More</a>
+                  </p>
+                </div>
+              </div>
+              <button class="destinations-btn story-btn">
+                <img
+                  class="arrow_right"
+                  src="../travel/assets/icons/arrow_right.svg"
+                  alt="arrow_right"
+                />
+                See More
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="social">
+        <div class="rss-div">
+          <a class="rss-item" href="https://rs.school/"
+            ><img
+              class="rss-image"
+              src="../travel/assets/icons/rs_school_js.svg"
+              alt="rsschool"
+          /></a>
+
+          <a class="rss-item" href="https://github.com/DragonRomeo"
+            ><img
+              class="git-image"
+              src="../travel/assets/icons/icon_github.svg"
+              alt="gitHub"
+          /></a>
+        </div>
+        <div class="rights">
+          <p class="p-footer">All Rights Reserved © Travel Portal</p>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://github.com/DragonRomeo"
+              ><img
+                class="social-item"
+                src="../travel/assets/icons/icon_insta.svg"
+                alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://rs.school/"
+              ><img
+                class="social-item"
+                src="../travel/assets/icons/icon_youtube.svg"
+                alt="youTube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/DragonRomeo"
+              ><img
+                class="social-item"
+                src="../travel/assets/icons/icon_twitter.svg"
+                alt="twitter"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="../travel/script.js"></script>
+  </body>
+</html>
